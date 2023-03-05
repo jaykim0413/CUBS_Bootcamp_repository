@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: darkgoldenrod;
+  font-family: cursive;
+  font-size: 70px;
+}
+h2 {
+  text-align: center;
+  color: darkkhaki;
+}
+h3 {
+  text-align: center;
+  color: darkgreen;
+}
+p {
+  font-family: cursive;
+}
+img {
+  width: 25%;
+}
+ul {
+  list-style-type: circle;
+}
+li {
+  font-family: 'Times New Roman', Times, serif;
+}
+table,tr,th,td {
+  border: 1px solid violet;
+}
+a {
+  color: black;
+}
+.Title {
+  border: 5px black;
+  border-style: dashed dashed;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.Body {
+  border: 3px darkkhaki;
+  border-style: dashed;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: aliceblue;
+}

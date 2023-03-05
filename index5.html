@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>  
+  // STRING FORMAT
+  const numApples = 5;
+  // console.log("I have " + numApples + " apples");
+  console.log(`I have ${numApples} apples`);
+  
+  // ARRAY - ADVANCED FUNCTIONS
+  
+  // map - creating a new array from an existing array
+ 	const names = ["daniel", "minjun", "joshua", "jay"];
+  
+  const greetings = names.map((name) => {
+    return `Hello, ${name}`;
+  });
+  
+  const numBananas = [1,2,3,4];
+  
+  // CREATE A NEW ARRAY CALLED newBananas FROM numBananas array
+  
+  // newBananas = ["I have 1 bananas", "I have 2 bananas","I have 3 bananas","I have 4 bananas"]
+  
+  const newBananas = numBananas.map((numBananas) => {
+    return `I have ${numBananas}`;
+  });
+
+    // spread
+    const arr1 = [1,2,3];
+  const arr2 = [...arr1, 4,5,6];
+  
+  
+  const names1 = ["Daniel", "Minjun"];
+  const names2 = [...names1, "Jay", "Joshua"];
+
+  
+  // OBJECT - ADVANCED FUNCTIONS
+  
+  // spread
+  const obj1 = {a: 1, b:2};
+  const obj2 = {...obj1, c: 3, d:4};
+  
+  // for ... in
+  for (let property in obj1) {
+    console.log("property", property);
+    console.log("obj1's property value", obj1[property]);
+  }
+  
+</script>
+</head>
+<body>
+  
+</body>
+</html>

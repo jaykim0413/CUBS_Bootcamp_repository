@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    //This is where we write our JS code
+    console.log("Hello,world!");
+
+    //1. Variable
+    var name = "Jay Kim";
+    
+      //Rule #1: Can't Start Variable Names with numbers
+      //Rule #2: Can't Use Keywords Reserved by JS
+      //Rule #3: Can't Place Spaces or Hyphens in between Variable Names
+
+      //NOTES
+
+      //UnderScore(_) allowes
+      //Get in the Habit of using CamelCase
+      //Should be Meaningful
+      //Variable names are case sensitive in JS
+
+    //2. Operators
+
+      // +, -, *, /, e.t.c.
+      // % = Modulus Operator ==> Return the Remainder of a division operation
+
+    //3. Assignment Type
+
+      // const = 고정값, used when the value will be terminal
+      // let = used when we want the value to change later on
+
+    //4. Functions
+
+      // function _______ (input) {
+      //    statements
+      // }
+      
+      /*
+      function printHello() {
+        console.log("Hello!");
+      }
+
+      printHello();
+      printHello();
+      */
+    
+    let Click_Count = 0;
+    let age = 17;
+
+    function displayClickCount() {
+      Click_Count++;
+      alert(Click_Count);
+    }
+
+    function checkAge(input_age) {
+      if (input_age >= 19) {
+        alert("You can purchase Alcohol");
+      }
+      else {
+        alert("You are not a suitabel age to purchase Alcohol");
+      }
+    }
+
+    function verifyUser(username) {
+      if (username === "Bob") {
+        alert("User Verified");
+      } else {
+        alert("User Not Recognized");
+      }
+    }
+
+  </script>
+</head>
+<body>
+  
+  <button onclick="displayClickCount()">Click Me!!!</button>
+  <br>
+  <button onclick="checkAge(21)">Check Age</button>
+  
+</body>
+</html>

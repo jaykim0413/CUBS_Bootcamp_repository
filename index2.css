@@ -1,0 +1,38 @@
+.Title {
+  border: 5px black;
+  border-style: dashed dashed;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: left;
+  color: darkolivegreen;
+  font-size: 40px;
+}
+
+
+h2 {
+  text-align: left;
+  color:darkslategray;
+  font-size: 30px;
+}
+
+h3 {
+  text-align: left;
+  color: midnightblue;
+  font-size: 20px;
+}
+
+.Body {
+  border: 3px darkkhaki;
+  border-style: dashed;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: aliceblue;
+}
+
+p {
+  font-size: 15px;
+}
