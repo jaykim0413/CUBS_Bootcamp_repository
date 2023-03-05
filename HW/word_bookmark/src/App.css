@@ -1,0 +1,63 @@
+.titleArea {
+  direction: flex;
+  align-items: center;
+  text-align: center;
+  background-color: bisque;
+  top : 0;
+  margin-bottom: 0px;
+}
+
+.title {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  border-style: dashed;
+  background-color: brown;
+  color:bisque;
+  text-align: center;
+  position: sticky;
+}
+
+.inputArea {
+  align-items: center;
+  text-align: center;
+  background-color: bisque;
+  margin: 0px;
+}
+
+.inputBox1 {
+  margin-top: 20px;
+  position: sticky;
+  margin-bottom: 20px;
+}
+
+.bookmarkList {
+  margin: 0px;
+  position: relative;
+  text-align: center;
+  color: darkred;
+  list-style-type: upper-roman;
+}
+
+.bookmarkedItem {
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+.inputBox2 {
+  text-align: center;
+  align-items: center;
+}
+
+.cancel {
+  margin-bottom: 20px;
+}
+
+.delete {
+  margin-bottom: 20px;
+}
+
+.update {
+  margin-bottom: 20px;
+}
